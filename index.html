@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wired Navi</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="icon" href="assets/img/WN-favicon.ico" type="image/png" />
+  </head>
+  <body>
+    <!-- ===== HEADER CON MENÚ ===== -->
+    <header>
+      <h1 class="logo"><a href="#inicio">Wired Navi</a></h1>
+      <nav>
+        <!-- Ícono menú hamburguesa (visible solo en móviles) -->
+        <div id="burger">&#9776;</div>
+
+        <!-- Enlaces del menú -->
+        <ul>
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#sobre-mi">Sobre mí</a></li>
+          <li><a href="#servicios">Servicios</a></li>
+          <li><a href="#proyectos">Proyectos</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- ===== SECCIÓN HERO / INICIO ===== -->
+    <section id="inicio" class="hero">
+      <div class="hero-bg-logo"></div>
+      <!-- Fondo decorativo con logo -->
+      <h2>Wired Navi</h2>
+      <p>
+        Soluciones web rápidas y modernas.<br />
+        Landing pages, portafolios y sitios a medida para tu negocio o marca
+        personal.<br />
+        Diseño atractivo, responsivo y con formularios listos para captar
+        clientes.
+        <!-- Diseño y desarrollo de páginas web modernas para potenciar tu negocio.
+        Presencia online rápida, atractiva y funcional, lista para captar más
+        clientes. -->
+      </p>
+      <a class="cta-btn" href="#contacto">Solicita tu web</a>
+    </section>
+
+    <!-- ===== SECCIÓN SOBRE MÍ ===== -->
+    <section id="sobre-mi">
+      <h2>Sobre mí</h2>
+      <p>
+        Soy Catalina Ossandón, desarrolladora web orientada al usuario y
+        estudiante de Full Stack Developer. Me especializo en crear páginas web
+        modernas, responsivas y listas para captar clientes. Ya sea para
+        pequeñas empresas, freelancers, profesionales del fitness o artistas, te
+        ayudo a tener presencia digital rápidamente, con diseños atractivos,
+        formularios funcionales y enfoque en resultados.
+      </p>
+    </section>
+
+    <!-- ===== SECCIÓN SERVICIOS ===== -->
+    <section id="servicios">
+      <h2>Servicios</h2>
+      <ul class="servicios">
+        <li>✔️ Landing pages profesionales</li>
+        <li>✔️ Diseño responsive</li>
+        <li>✔️ Formularios funcionales</li>
+        <li>✔️ Optimización SEO básica</li>
+      </ul>
+    </section>
+
+    <!-- ===== SECCIÓN PROYECTOS ===== -->
+    <section id="proyectos">
+      <h2>Proyectos</h2>
+      <div class="grid">
+        <!-- Tarjetas de proyecto -->
+        <!-- Tarjeta 1 -->
+        <div class="card">
+          <img
+            src="assets/img/Landing-creativa-dark-desk.png"
+            alt="Preview Landing Creativa Dark"
+            class="proyecto-img"
+          />
+          <h3>Landing Creativa Dark</h3>
+          <p>
+            Ideal para marcas modernas, creativos y negocios que buscan un look
+            alternativo y memorable. Diseño oscuro, slider y formulario.
+          </p>
+          <a href="#" target="_blank">Ver demo</a>
+        </div>
+        <!-- Tarjeta 2 -->
+        <div class="card">
+          <img
+            src="assets/img/Landing-corporativa-blue-desk.png"
+            alt="Preview Landing Corporativa Blue"
+            class="proyecto-img"
+          />
+          <h3>Landing Corporativa Blue</h3>
+          <p>
+            Perfecta para empresas y profesionales formales. Diseño claro,
+            servicios destacados, información clara y formulario de contacto.
+          </p>
+          <a href="#" target="_blank">Ver demo</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== SECCIÓN CONTACTO ===== -->
+    <section id="contacto">
+      <h2>Contacto</h2>
+      <form id="contact-form" name="contact-form">
+        <input type="text" name="name" placeholder="Tu nombre" required />
+        <input type="email" name="email" placeholder="Tu correo" required />
+        <textarea name="message" placeholder="Tu mensaje" required></textarea>
+        <button type="submit">Enviar mensaje</button>
+        <p id="form-msg"></p>
+      </form>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer>
+      <p>&copy; 2025 Catalina Ossandón · Wired Navi</p>
+    </footer>
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
