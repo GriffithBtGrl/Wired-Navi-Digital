@@ -98,49 +98,6 @@ nav a.active {
   box-shadow: 0 0 10px #00ffe7;
 }
 
-.hero {
-  position: relative;
-  min-height: 380px;
-  padding: 5rem 2rem 3rem 2rem;
-  text-align: center;
-  background: var(--negro);
-  /* Fondo con logo que cubre toda la sección hero */
-  background-image: url('../img/Wried-Navi-Favicon.png'); 
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;   
-  opacity: 1;  
-}
-
-/* ¨Para que se siga viendo bien rn móvil: */
-@media (max-width: 600px) {
-  .hero {
-    min-height: 220px;
-    padding: 2.5rem 1rem 1.5rem 1rem;
-    background-size: contain; 
-  }
-}
-
-
-.hero-bg-logo {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 260px;     
-  height: 260px; 
-  opacity: 0.09;
-  background: url('../img/Wried-Navi-Favicon.png') center/contain no-repeat;
-  transform: translate(-50%, -50%);
-  z-index: 0;
-  pointer-events: none;
-  background-size: contain;
-} 
-
-.hero > *:not(.hero-bg-logo) {
-  position: relative;
-  z-index: 2;
-}
-
 .cta-btn {
   display: inline-block;
   margin-top: 2rem;
@@ -176,12 +133,49 @@ nav a.active {
 
 /* ===== HERO ===== */
 .hero {
-  background: linear-gradient(120deg, #181a21 60%, #21232e 100%);
-  border-bottom: 2px solid var(--calipso-neon);
+  position: relative;
+  min-height: 380px;
   padding: 5rem 2rem 3rem 2rem;
   text-align: center;
+  background: 
+    linear-gradient(120deg, rgba(24,26,33,0.85) 60%, rgba(33,35,46,0.8) 80%),
+    url('../img/Wried-Navi-Favicon.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;   
+  opacity: 1;
+  border-bottom: 2px solid var(--calipso-neon);
   box-shadow: 0 6px 36px #00ffe726;
 }
+
+/* ¨Para que se siga viendo bien rn móvil: */
+@media (max-width: 600px) {
+  .hero {
+    min-height: 220px;
+    padding: 2.5rem 1rem 1.5rem 1rem;
+    background-size: contain; 
+  }
+}
+
+
+/* .hero-bg-logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 260px;     
+  height: 260px; 
+  opacity: 0.09;
+  background: url('../img/Wried-Navi-Favicon.png') center/contain no-repeat;
+  transform: translate(-50%, -50%);
+  z-index: 0;
+  pointer-events: none;
+  background-size: contain;
+} 
+
+.hero > *:not(.hero-bg-logo) {
+  position: relative;
+  z-index: 2;
+} */
 
 .hero h2 {
   font-size: 2.7rem;

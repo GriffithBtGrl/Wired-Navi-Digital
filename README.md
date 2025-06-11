@@ -56,3 +56,5 @@ catalina.ossandon@outlook.com
 Mi portafolio -> https://wired-navi-digital.netlify.app/  
 
 ---
+
+-----ARREGLAR LO DE LA CAPTURA DE PANTALLA XD------
