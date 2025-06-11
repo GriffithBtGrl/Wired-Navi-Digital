@@ -98,27 +98,7 @@ nav a.active {
   box-shadow: 0 0 10px #00ffe7;
 }
 
-.cta-btn {
-  display: inline-block;
-  margin-top: 2rem;
-  background: linear-gradient(90deg, var(--calipso-neon), var(--rosa-neon));
-  color: var(--negro);
-  padding: 0.9rem 2.1rem;
-  border-radius: 8px;
-  font-weight: bold;
-  font-size: 1.15rem;
-  text-decoration: none;
-  box-shadow: 0 2px 18px #00ffe755;
-  transition: background 0.22s, color 0.22s, box-shadow 0.22s;
-}
-.cta-btn:hover {
-  background: var(--gris-oscuro);
-  color: var(--calipso-neon);
-  border: 1.5px solid var(--rosa-neon);
-  box-shadow: 0 0 22px #ff00d4bb;
-}
-
-/* Burger */
+/* === BURGER ===*/
 #burger {
   display: none;
   font-size: 2.2rem;
@@ -135,7 +115,7 @@ nav a.active {
 .hero {
   position: relative;
   min-height: 380px;
-  padding: 5rem 2rem 3rem 2rem;
+  padding: 6.8rem 2rem 6rem 2rem;
   text-align: center;
   background: 
     linear-gradient(120deg, rgba(24,26,33,0.85) 60%, rgba(33,35,46,0.8) 80%),
@@ -176,12 +156,32 @@ nav a.active {
   position: relative;
   z-index: 2;
 } */
+/* == HERO BTN == */
+.cta-btn {
+  display: inline-block;
+  margin-top: 2rem;
+  background: linear-gradient(90deg, var(--calipso-neon), var(--rosa-neon));
+  color: var(--negro);
+  padding: 0.9rem 2.1rem;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 1.15rem;
+  text-decoration: none;
+  box-shadow: 0 2px 18px #00ffe755;
+  transition: background 0.22s, color 0.22s, box-shadow 0.22s;
+}
+.cta-btn:hover {
+  background: var(--gris-oscuro);
+  color: var(--calipso-neon);
+  border: 1.5px solid var(--rosa-neon);
+  box-shadow: 0 0 22px #ff00d4bb;
+}
 
 .hero h2 {
   font-size: 2.7rem;
   color: var(--calipso-neon);
   letter-spacing: 0.04em;
-  margin-bottom: 0.7rem;
+  margin-bottom: 1.4rem;
   text-shadow: var(--calipso-neon-shadow);
 }
 
@@ -195,9 +195,10 @@ nav a.active {
 
 /* ===== SECCIONES ===== */
 section {
-  padding: 60px 0 40px 0;
+  padding: 60px 2vw 40px 2vw;
   margin: auto;
-  width: min(96vw, 900px);
+  width: 100%;
+  max-width: 1300px;
   background: transparent;
 }
 
