@@ -1,146 +1,92 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Wired Navi — Soluciones Web Modernas</title>
-    <meta name="description" content="Soluciones web rápidas y modernas. Landing pages, portafolios y sitios web personalizados con diseño atractivo y enfoque en captar clientes.">
-    <link rel="canonical" href="https://wired-navi-digital.netlify.app/" />
-    <meta property="og:title" content="Wired Navi — Soluciones Web Modernas">
-    <meta property="og:description" content="Soluciones web rápidas y modernas. Landing pages, portafolios y sitios web personalizados con diseño atractivo y enfoque en captar clientes.">
-    <meta property="og:image" content="https://wired-navi-digital.netlify.app/assets/img/Wried-Navi-Favicon.png">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://wired-navi-digital.netlify.app//">
-    <meta name="twitter:card" content="summary_large_image">
-    <link rel="stylesheet" href="./assets/css/style.css" />
-    <link rel="icon" href="assets/img/WN-favicon.ico" type="image/x-icon" />
-  </head>
-  <body>
-   
-
-    <!-- ===== HEADER CON MENÚ ===== -->
-    <header>
-      <h1 class="logo"><a href="#inicio" id="logo-text">Wired Navi</a></h1>
-      <nav role="navigation" aria-label="Menú principal">
-        <!-- Ícono menú hamburguesa (visible solo en móviles) -->
-        <div id="burger" aria-label="Abrir menú">&#9776;</div>
-        <!-- Enlaces del menú -->
-        <ul>
-          <li><a href="#inicio" id="nav-inicio">Inicio</a></li>
-          <li><a href="#sobre-mi" id="nav-sobre">Sobre mí</a></li>
-          <li><a href="#servicios" id="nav-servicios">Servicios</a></li>
-          <li><a href="#proyectos" id="nav-proyectos">Proyectos</a></li>
-          <li><a href="#contacto" id="nav-contacto">Contacto</a></li>
-          <!-- ===== BOTÓN DE IDIOMA ===== -->
-          <li>
-            <button id="lang-switch" aria-label="Cambiar idioma / Change language" title="Change language">EN</button>
-          </li>
-        </ul>
-      </nav>
-    </header>
-
-    <!-- ===== SECCIÓN HERO / INICIO ===== -->
-    <main id="main-content">
-    <section id="inicio" class="hero">
-      <div class="hero-bg-logo"></div>
-      <!-- Fondo decorativo con logo -->
-      <h2 id="hero-title">Wired Navi</h2>
-      <p id="hero-desc">
-        Soluciones web rápidas y modernas.<br />
-        <br>
-        Landing pages, portafolios y sitios a medida para tu negocio o marca
-        personal.<br />
-        <br>
-        Diseño atractivo, responsivo y con formularios listos para captar
-        clientes.
-      </p>
-      <a class="cta-btn" href="#contacto" id="hero-btn">Solicita tu web</a>
-    </section>
-
-    <!-- ===== SECCIÓN SOBRE MÍ ===== -->
-    <section id="sobre-mi">
-      <h2 id="about-title">Sobre mí</h2>
-      <p id="about-desc">
-        Soy Catalina Ossandón, desarrolladora web orientada al usuario y
-        estudiante de Full Stack Developer. Me especializo en crear páginas web
-        modernas, responsivas y listas para captar clientes. Ya sea para
-        pequeñas empresas, freelancers, profesionales del fitness o artistas, te
-        ayudo a tener presencia digital rápidamente, con diseños atractivos,
-        formularios funcionales y enfoque en resultados.
-      </p>
-    </section>
-
-    <!-- ===== SECCIÓN SERVICIOS ===== -->
-    <section id="servicios">
-      <h2 id="services-title">Servicios</h2>
-      <ul class="servicios" id="services-list">
-        <li id="serv-item-1">✔️ Landing pages profesionales</li>
-        <li id="serv-item-2">✔️ Diseño responsive</li>
-        <li id="serv-item-3">✔️ Formularios funcionales</li>
-        <li id="serv-item-4">✔️ Optimización SEO básica</li>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Inicio | Wired Navi — Soluciones Web Modernas</title>
+  <meta name="description" content="Diseño y desarrollo de sitios web modernos y atractivos para empresas, pymes, artistas y profesionales. ¡Haz crecer tu presencia digital con Wired Navi!">
+  <link rel="canonical" href="https://wired-navi-digital.netlify.app/index.html" />
+  <meta property="og:title" content="Wired Navi — Soluciones Web Modernas">
+  <meta property="og:description" content="Sitios web modernos para empresas, pymes, artistas y más. Diseño personalizado, responsive y con foco en captar clientes.">
+  <meta property="og:image" content="https://wired-navi-digital.netlify.app/assets/img/Wried-Navi-Favicon.png">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://wired-navi-digital.netlify.app/">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="stylesheet" href="./assets/css/style.css" />
+  <link rel="icon" href="assets/img/WN-favicon.ico" type="image/x-icon" />
+</head>
+<body>
+  <!-- ===== HEADER CON MENÚ ===== -->
+  <header>
+    <h1 class="logo"><a href="index.html" id="logo-text">Wired Navi</a></h1>
+    <nav role="navigation" aria-label="Menú principal">
+      <div id="burger" aria-label="Abrir menú">&#9776;</div>
+      <ul>
+        <li><a href="index.html" id="nav-inicio" class="active">Inicio</a></li>
+        <li><a href="sobre-mi.html" id="nav-sobre">Sobre mí</a></li>
+        <li><a href="servicios.html" id="nav-servicios">Servicios</a></li>
+        <li><a href="portafolio.html" id="nav-proyectos">Portafolio</a></li>
+        <li><a href="contacto.html" id="nav-contacto">Contacto</a></li>
+        <li>
+          <button id="lang-switch" aria-label="Cambiar idioma / Change language" title="Change language">EN</button>
+        </li>
       </ul>
+    </nav>
+  </header>
+  <main id="main-content">
+    <!-- ===== HERO / PRESENTACIÓN DESTACADA ===== -->
+    <section id="inicio" class="hero">
+      <!-- <div class="hero-avatar-box">
+        <img src="assets/img/avatar-cata.png" alt="Catalina Ossandón - Wired Navi" class="hero-avatar" />
+      </div> -->
+      <h2 id="hero-title">¡Hola! Soy Catalina Ossandón</h2>
+      <p id="hero-desc">
+        <strong>Desarrolladora web & diseñadora independiente.</strong><br>
+        Creo sitios web modernos, atractivos y efectivos para empresas, pymes, profesionales, artistas y marcas personales.<br><br>
+        ¿Tu proyecto necesita presencia digital? ¡Aquí comienza!
+      </p>
+      <a class="cta-btn" href="contacto.html" id="hero-btn">Cotiza gratis tu web</a>
+      <a class="cta-btn-outline" href="portafolio.html" id="hero-portfolio-btn">Ver portafolio</a>
     </section>
 
-    <!-- ===== SECCIÓN PROYECTOS ===== -->
-    <section id="proyectos">
-      <h2 id="projects-title">Proyectos</h2>
-      <div class="grid">
-        <!-- Tarjetas de proyecto -->
-        <!-- Tarjeta 1 -->
-        <div class="card">
-          <img
-            src="assets/img/Landing-creativa-dark-desk.png"
-            alt="Vista previa Landing Creativa Dark"
-            class="proyecto-img"
-            id="proj-img-1"
-          />
-          <h3 id="proj-title-1">Landing Creativa Dark</h3>
-          <p id="proj-desc-1">
-            Ideal para marcas modernas, creativos y negocios que buscan un look
-            alternativo y memorable. Diseño oscuro, slider y formulario.
-          </p>
-          <a href="https://griffithbtgrl.github.io/Landing-Dark-Pastel/" target="_blank" id="proj-demo-1">Ver demo</a>
-        </div>
-        <!-- Tarjeta 2 -->
-        <div class="card">
-          <img
-            src="assets/img/Landing-corporativa-blue-desk.png"
-            alt="Vista previa Landing Corporativa Blue"
-            class="proyecto-img"
-            id="proj-img-2"
-          />
-          <h3 id="proj-title-2">Landing Corporativa Blue</h3>
-          <p id="proj-desc-2">
-            Perfecta para empresas y profesionales formales. Diseño claro,
-            servicios destacados, información clara y formulario de contacto.
-          </p>
-          <a href="https://griffithbtgrl.github.io/Landing-Corportativa/" target="_blank" id="proj-demo-2">Ver demo</a> <!--Agregar link a la plantilla de ejemplo-->
-        </div>
-      </div>
+    <!-- ===== RESUMEN DE SERVICIOS ESTRELLA ===== -->
+    <section id="resumen-servicios" class="highlight-section">
+      <h2>¿Qué puedo crear para ti?</h2>
+      <ul class="servicios estrella">
+        <li>✔️ Sitios web responsivos y personalizados</li>
+        <li>✔️ Formularios funcionales para captar clientes</li>
+        <li>✔️ Animaciones e interacción moderna</li>
+        <li>✔️ Botón de idioma y WhatsApp (si lo necesitas)</li>
+        <li>✔️ Optimización SEO básica / meida</li>
+        <li>✔️ Soporte post-entrega y capacitación</li>
+      </ul>
+      <a href="servicios.html" class="cta-btn-secondary">Ver todos los servicios y paquetes</a>
     </section>
 
-    <!-- ===== SECCIÓN CONTACTO ===== -->
-    <section id="contacto">
-      <h2 id="contact-title">Contacto</h2>
-      <form id="contact-form" name="contact-form">
-        <input type="text" name="name" id="form-name" placeholder="Tu nombre" required aria-label="Tu nombre" />
-        <input type="email" name="email" id="form-email" placeholder="Tu correo" required aria-label="Tu correo" />
-        <textarea name="message" id="form-message" placeholder="Tu mensaje" required aria-label="Tu mensaje"></textarea>
-        <button type="submit" id="form-btn">Enviar mensaje</button>
-        <p id="form-msg"></p>
-      </form>
+    <!-- ===== POR QUÉ NECESITAS UN SITIO WEB ===== -->
+    <section id="por-que-web" class="convince-section">
+      <h2>¿Por qué tu negocio necesita un sitio web propio?</h2>
+      <ul class="checklist">
+        <li>🔹 <strong>Control total</strong>: No dependes de redes sociales o plataformas de terceros.</li>
+        <li>🔹 <strong>Credibilidad y confianza</strong>: Un sitio profesional transmite seriedad y confianza.</li>
+        <li>🔹 <strong>Capta más clientes</strong>: Formularios y llamadas a la acción para aumentar tus ventas.</li>
+        <li>🔹 <strong>Disponible 24/7</strong>: Tu negocio visible todo el año, sin límites geográficos.</li>
+        <li>🔹 <strong>Mejor posicionamiento en Google</strong>: Más visibilidad y oportunidades.</li>
+      </ul>
+      <p class="highlight">🔗 ¡Destaca tu marca con un sitio web hecho a tu medida!</p>
     </section>
-    </main>
 
-    <!-- ===== FOOTER ===== -->
-    <footer>
-      <p id="footer-text">&copy; 2025 Catalina Ossandón · Wired Navi</p>
-    </footer>
-
-     
-    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
-    <script src="./assets/js/script.js"></script>
-
-
-  </body>
+    <!-- ===== CTA Y ACCESO DIRECTO AL PORTAFOLIO ===== -->
+    <section id="cta-final" class="cta-section">
+      <h2>¿Listo para elevar tu presencia digital?</h2>
+      <a class="cta-btn" href="contacto.html">Contáctame ahora</a>
+      <a class="cta-btn-outline" href="portafolio.html">Ver ejemplos de mi trabajo</a>
+    </section>
+  </main>
+  <footer>
+    <p id="footer-text">&copy; 2025 Catalina Ossandón · Wired Navi</p>
+  </footer>
+  <script src="assets/js/lang.js"></script>
+  <script src="assets/js/script.js"></script>
+</body>
 </html>

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contacto | Wired Navi</title>
+  <meta name="description" content="Contácta a Catalina Ossandón para cotizar tu sitio web, resolver dudas o recibir asesoría digital. Respuesta ágil y cercana.">
+  <link rel="canonical" href="https://wired-navi-digital.netlify.app/contacto.html" />
+  <meta property="og:title" content="Contacto | Wired Navi">
+  <meta property="og:description" content="Solicita tu web, resuelve dudas o agenda una reunión. ¡Hablemos de tu proyecto digital!">
+  <meta property="og:image" content="https://wired-navi-digital.netlify.app/assets/img/Wried-Navi-Favicon.png">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://wired-navi-digital.netlify.app/contacto.html">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="stylesheet" href="./assets/css/style.css" />
+  <link rel="icon" href="assets/img/WN-favicon.ico" type="image/x-icon" />
+</head>
+<body>
+  <!-- ===== HEADER CON MENÚ ===== -->
+  <header>
+    <h1 class="logo"><a href="index.html" id="logo-text">Wired Navi</a></h1>
+    <nav role="navigation" aria-label="Menú principal">
+      <div id="burger" aria-label="Abrir menú">&#9776;</div>
+      <ul>
+        <li><a href="index.html" id="nav-inicio">Inicio</a></li>
+        <li><a href="sobre-mi.html" id="nav-sobre">Sobre mí</a></li>
+        <li><a href="servicios.html" id="nav-servicios">Servicios</a></li>
+        <li><a href="portafolio.html" id="nav-proyectos">Portafolio</a></li>
+        <li><a href="contacto.html" id="nav-contacto" class="active">Contacto</a></li>
+        <li>
+          <button id="lang-switch" aria-label="Cambiar idioma / Change language" title="Change language">EN</button>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main id="main-content">
+
+    <section class="highlight-section">
+      <h2>Contacto</h2>
+      <p>¿Listo para comenzar tu proyecto, tienes dudas o quieres cotizar? Completa el formulario o escríbeme directamente. ¡Te responderé lo antes posible!</p>
+      <form id="contact-form" name="contact-form">
+        <input type="text" name="name" id="form-name" placeholder="Tu nombre" required aria-label="Tu nombre" />
+        <input type="email" name="email" id="form-email" placeholder="Tu correo" required aria-label="Tu correo" />
+        <textarea name="message" id="form-message" placeholder="Cuéntame sobre tu idea o consulta" required aria-label="Tu mensaje"></textarea>
+        <button type="submit" id="form-btn">Enviar mensaje</button>
+        <p id="form-msg"></p>
+      </form>
+      <div class="contacto-directo">
+        <p>O si prefieres, escríbeme directo por:</p>
+        <a class="cta-btn-outline" href="mailto:cata.ossandon@gmail.com" target="_blank">Correo</a>
+        <a class="cta-btn-outline" href="https://wa.me/569XXXXXXXX" target="_blank">WhatsApp</a>
+      </div>
+    </section>
+
+    <!-- ===== Q&A / PREGUNTAS FRECUENTES ===== -->
+    <section class="convince-section qna-section">
+      <h2>Preguntas Frecuentes</h2>
+      <details>
+        <summary>¿Qué necesito para encargar mi web?</summary>
+        <div>
+          Solo necesitas tener clara tu idea, tus objetivos y el público al que quieres llegar. Si ya tienes textos, imágenes o logo, ¡mejor! Si no, te ayudo a definir lo necesario.
+        </div>
+      </details>
+      <details>
+        <summary>¿Cuánto tarda el desarrollo?</summary>
+        <div>
+          Depende del tipo de sitio y la cantidad de páginas. Un proyecto básico puede estar listo en 1 a 2 semanas. Proyectos más grandes o personalizados pueden tomar de 3 a 5 semanas.
+        </div>
+      </details>
+      <details>
+        <summary>¿Puedo administrar mi web después?</summary>
+        <div>
+          Sí, ofrezco capacitación básica para que puedas actualizar textos e imágenes. Si prefieres que yo haga los cambios, también puedes contratar soporte mensual.
+        </div>
+      </details>
+      <details>
+        <summary>¿Incluye hosting y dominio?</summary>
+        <div>
+          Sí, puedo ayudarte a publicar tu web en un hosting gratuito o guiarte en la compra de un dominio propio para tu marca.
+        </div>
+      </details>
+      <details>
+        <summary>¿Cómo es el proceso de pago?</summary>
+        <div>
+          Generalmente se acuerda un 50% al iniciar y el resto al entregar el proyecto. Para proyectos pequeños es posible pago único.
+        </div>
+      </details>
+      <details>
+        <summary>¿Y si tengo dudas o problemas después de la entrega?</summary>
+        <div>
+          Incluyo soporte post-entrega y puedes contactarme siempre que lo necesites. ¡Quiero que tu web funcione perfecto!
+        </div>
+      </details>
+    </section>
+
+  </main>
+  <footer>
+    <p id="footer-text">&copy; 2025 Catalina Ossandón · Wired Navi</p>
+  </footer>
+  <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+  <script src="assets/js/lang.js"></script>
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
