@@ -216,7 +216,7 @@ section {
 }
 
 h2 {
-  margin-bottom: 1.2rem;
+  margin-bottom: 2.2rem;
   border-bottom: 2.5px solid var(--calipso-neon);
   display: inline-block;
   color: var(--calipso-neon);
@@ -300,6 +300,12 @@ h2 {
   box-shadow: 0 0 24px #00ffe72a;
   transition: transform 0.2s, box-shadow 0.2s, border-color 0.25s;
   overflow: hidden;
+}
+
+.servicio-card p {
+  color: var(--gris);
+  margin-bottom: 1rem;
+  font-size: 1.05rem;
 }
 
 .servicio-card:hover {
@@ -577,6 +583,11 @@ footer {
 
 /* === 1. Móviles pequeños (hasta 520px) === */
 @media (max-width: 520px) {
+  body{
+    padding-left: 5vw;
+    padding-right: 5vw;
+  }
+
   .hero h2 {
     font-size: 2rem;
   }
@@ -629,6 +640,11 @@ footer {
 
 /* === 2. Móviles medianos (hasta 600px) === */
 @media (max-width: 600px) {
+  body {
+    padding-left: 4vw;
+    padding-right: 4vw;
+  }
+
   .highlight-section,
   .convince-section,
   .cta-section {
@@ -692,6 +708,11 @@ footer {
 
 /* === 3. Tablets (hasta 768px) === */
 @media (max-width: 768px) {
+  body{
+    padding-left: 5vw;
+    padding-right: 5vw;
+  }
+
   nav ul {
     flex-direction: column;
     display: none;
