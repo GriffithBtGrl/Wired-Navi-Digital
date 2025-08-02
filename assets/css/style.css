@@ -384,6 +384,7 @@ h2 {
   gap: 2rem;
   flex-wrap: wrap;
   justify-content: center;
+  margin-bottom: 2rem;
 }
 
 .card {
@@ -667,7 +668,8 @@ footer {
   .cta-btn-secondary {
     font-size: 0.95rem;
     padding: 0.7rem 1.2rem;
-    margin-top: 0.6rem;
+    margin-top: 1.6rem;
+    margin-left: 2rem;
   }
 
   .qna-section details {
