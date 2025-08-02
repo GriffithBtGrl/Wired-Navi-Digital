@@ -325,11 +325,11 @@ I create modern, attractive and effective websites for businesses, professionals
     if (btn) btn.textContent = texts[lang]["lang-btn"];
   }
 
-  let lang = localStorage.getItem("lang") || "es";
+  let lang = "es";
   setLanguage(lang);
   document.getElementById("lang-switch").addEventListener("click", () => {
     lang = lang === "es" ? "en" : "es";
-    localStorage.setItem("lang", lang);
+    //localStorage.setItem("lang", lang);
     setLanguage(lang);
   });
 });
