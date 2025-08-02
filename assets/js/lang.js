@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", () => {
       "nav-servicios": "Servicios",
       "nav-proyectos": "Portafolio",
       "nav-contacto": "Contacto",
-      "footer-text": "&copy; 2025 Catalina Ossandón · Wired Navi"
+      "footer-text": "&copy; 2025 Catalina Ossandón · Wired Navi",
     },
     en: {
       "lang-btn": "ES",
@@ -22,8 +22,8 @@ document.addEventListener("DOMContentLoaded", () => {
       "nav-servicios": "Services",
       "nav-proyectos": "Portfolio",
       "nav-contacto": "Contact",
-      "footer-text": "&copy; 2025 Catalina Ossandón · Wired Navi"
-    }
+      "footer-text": "&copy; 2025 Catalina Ossandón · Wired Navi",
+    },
   };
 
   // Textos específicos por página
@@ -36,23 +36,36 @@ Creo sitios web modernos, atractivos y efectivos para empresas, pymes, profesion
         "#hero-btn": "Cotiza gratis tu web",
         "#hero-portfolio-btn": "Ver portafolio",
         "#resumen-servicios h2": "¿Qué puedo crear para ti?",
-        "#resumen-servicios li:nth-child(1)": "✔️ Sitios web responsivos y personalizados",
-        "#resumen-servicios li:nth-child(2)": "✔️ Formularios funcionales para captar clientes",
-        "#resumen-servicios li:nth-child(3)": "✔️ Animaciones e interacción moderna",
-        "#resumen-servicios li:nth-child(4)": "✔️ Botón de idioma y WhatsApp (si lo necesitas)",
-        "#resumen-servicios li:nth-child(5)": "✔️ Optimización SEO básica / media",
-        "#resumen-servicios li:nth-child(6)": "✔️ Soporte post-entrega y capacitación",
-        "#resumen-servicios .cta-btn-secondary": "Ver todos los servicios y paquetes",
+        "#resumen-servicios li:nth-child(1)":
+          "✔️ Sitios web responsivos y personalizados",
+        "#resumen-servicios li:nth-child(2)":
+          "✔️ Formularios funcionales para captar clientes",
+        "#resumen-servicios li:nth-child(3)":
+          "✔️ Animaciones e interacción moderna",
+        "#resumen-servicios li:nth-child(4)":
+          "✔️ Botón de idioma y WhatsApp (si lo necesitas)",
+        "#resumen-servicios li:nth-child(5)":
+          "✔️ Optimización SEO básica / media",
+        "#resumen-servicios li:nth-child(6)":
+          "✔️ Soporte post-entrega y capacitación",
+        "#resumen-servicios .cta-btn-secondary":
+          "Ver todos los servicios y paquetes",
         "#por-que-web h2": "¿Por qué tu negocio necesita un sitio web propio?",
-        "#por-que-web li:nth-child(1)": "🔹 Control total: No dependes de redes sociales o plataformas de terceros.",
-        "#por-que-web li:nth-child(2)": "🔹 Credibilidad y confianza: Un sitio profesional transmite seriedad y confianza.",
-        "#por-que-web li:nth-child(3)": "🔹 Capta más clientes: Formularios y llamadas a la acción para aumentar tus ventas.",
-        "#por-que-web li:nth-child(4)": "🔹 Disponible 24/7: Tu negocio visible todo el año, sin límites geográficos.",
-        "#por-que-web li:nth-child(5)": "🔹 Mejor posicionamiento en Google: Más visibilidad y oportunidades.",
-        "#por-que-web .highlight": "🔗 ¡Destaca tu marca con un sitio web hecho a tu medida!",
+        "#por-que-web li:nth-child(1)":
+          "🔹 Control total: No dependes de redes sociales o plataformas de terceros.",
+        "#por-que-web li:nth-child(2)":
+          "🔹 Credibilidad y confianza: Un sitio profesional transmite seriedad y confianza.",
+        "#por-que-web li:nth-child(3)":
+          "🔹 Capta más clientes: Formularios y llamadas a la acción para aumentar tus ventas.",
+        "#por-que-web li:nth-child(4)":
+          "🔹 Disponible 24/7: Tu negocio visible todo el año, sin límites geográficos.",
+        "#por-que-web li:nth-child(5)":
+          "🔹 Mejor posicionamiento en Google: Más visibilidad y oportunidades.",
+        "#por-que-web .highlight":
+          "🔗 ¡Destaca tu marca con un sitio web hecho a tu medida!",
         "#cta-final h2": "¿Listo para elevar tu presencia digital?",
         "#cta-final .cta-btn": "Contáctame ahora",
-        "#cta-final .cta-btn-outline": "Ver ejemplos de mi trabajo"
+        "#cta-final .cta-btn-outline": "Ver ejemplos de mi trabajo",
       },
       en: {
         "#hero-title": "Hi! I'm Catalina Ossandón",
@@ -61,24 +74,37 @@ I create modern, attractive and effective websites for businesses, professionals
         "#hero-btn": "Get a free quote",
         "#hero-portfolio-btn": "View portfolio",
         "#resumen-servicios h2": "What can I create for you?",
-        "#resumen-servicios li:nth-child(1)": "✔️ Responsive and custom websites",
-        "#resumen-servicios li:nth-child(2)": "✔️ Functional client-catching forms",
-        "#resumen-servicios li:nth-child(3)": "✔️ Modern animations and interactivity",
-        "#resumen-servicios li:nth-child(4)": "✔️ Language button & WhatsApp (if needed)",
-        "#resumen-servicios li:nth-child(5)": "✔️ Basic / medium SEO optimization",
-        "#resumen-servicios li:nth-child(6)": "✔️ Post-delivery support and training",
-        "#resumen-servicios .cta-btn-secondary": "See all services and packages",
+        "#resumen-servicios li:nth-child(1)":
+          "✔️ Responsive and custom websites",
+        "#resumen-servicios li:nth-child(2)":
+          "✔️ Functional client-catching forms",
+        "#resumen-servicios li:nth-child(3)":
+          "✔️ Modern animations and interactivity",
+        "#resumen-servicios li:nth-child(4)":
+          "✔️ Language button & WhatsApp (if needed)",
+        "#resumen-servicios li:nth-child(5)":
+          "✔️ Basic / medium SEO optimization",
+        "#resumen-servicios li:nth-child(6)":
+          "✔️ Post-delivery support and training",
+        "#resumen-servicios .cta-btn-secondary":
+          "See all services and packages",
         "#por-que-web h2": "Why does your business need its own website?",
-        "#por-que-web li:nth-child(1)": "🔹 Full control: No dependency on social media or third-party platforms.",
-        "#por-que-web li:nth-child(2)": "🔹 Credibility and trust: A professional site builds confidence.",
-        "#por-que-web li:nth-child(3)": "🔹 Capture more clients: Forms and CTAs to boost sales.",
-        "#por-que-web li:nth-child(4)": "🔹 Available 24/7: Your business visible year-round, anywhere.",
-        "#por-que-web li:nth-child(5)": "🔹 Better Google ranking: More visibility and opportunities.",
-        "#por-que-web .highlight": "🔗 Make your brand stand out with a custom-built site!",
+        "#por-que-web li:nth-child(1)":
+          "🔹 Full control: No dependency on social media or third-party platforms.",
+        "#por-que-web li:nth-child(2)":
+          "🔹 Credibility and trust: A professional site builds confidence.",
+        "#por-que-web li:nth-child(3)":
+          "🔹 Capture more clients: Forms and CTAs to boost sales.",
+        "#por-que-web li:nth-child(4)":
+          "🔹 Available 24/7: Your business visible year-round, anywhere.",
+        "#por-que-web li:nth-child(5)":
+          "🔹 Better Google ranking: More visibility and opportunities.",
+        "#por-que-web .highlight":
+          "🔗 Make your brand stand out with a custom-built site!",
         "#cta-final h2": "Ready to boost your digital presence?",
         "#cta-final .cta-btn": "Contact me now",
-        "#cta-final .cta-btn-outline": "View my work"
-      }
+        "#cta-final .cta-btn-outline": "View my work",
+      },
     },
     "/sobre-mi.html": {
       es: {
@@ -87,11 +113,15 @@ I create modern, attractive and effective websites for businesses, professionals
         ".about-section .cta-btn": "¡Contáctame!",
         ".about-section .cta-btn-outline": "Ver mi portafolio",
         ".about-extra h2": "¿Cómo trabajo?",
-        ".about-extra li:nth-child(1)": "🔹 Escucho tus ideas y defino objetivos contigo.",
-        ".about-extra li:nth-child(2)": "🔹 Propongo una solución visual y técnica adaptada a tu público.",
-        ".about-extra li:nth-child(3)": "🔹 Desarrollo tu web con avances visibles y comunicación constante.",
-        ".about-extra li:nth-child(4)": "🔹 Entrego el sitio listo, con capacitación y soporte post-lanzamiento.",
-        ".about-extra .highlight": "¡Tu proyecto merece destacar en internet!"
+        ".about-extra li:nth-child(1)":
+          "🔹 Escucho tus ideas y defino objetivos contigo.",
+        ".about-extra li:nth-child(2)":
+          "🔹 Propongo una solución visual y técnica adaptada a tu público.",
+        ".about-extra li:nth-child(3)":
+          "🔹 Desarrollo tu web con avances visibles y comunicación constante.",
+        ".about-extra li:nth-child(4)":
+          "🔹 Entrego el sitio listo, con capacitación y soporte post-lanzamiento.",
+        ".about-extra .highlight": "¡Tu proyecto merece destacar en internet!",
       },
       en: {
         ".about-section h2": "Hi! I'm Catalina Ossandón",
@@ -99,12 +129,16 @@ I create modern, attractive and effective websites for businesses, professionals
         ".about-section .cta-btn": "Contact me!",
         ".about-section .cta-btn-outline": "View my portfolio",
         ".about-extra h2": "How I work?",
-        ".about-extra li:nth-child(1)": "🔹 I listen to your ideas and define objectives with you.",
-        ".about-extra li:nth-child(2)": "🔹 I propose visual & technical solutions tailored to your audience.",
-        ".about-extra li:nth-child(3)": "🔹 I develop your site with visible progress and constant communication.",
-        ".about-extra li:nth-child(4)": "🔹 I deliver a ready-to-use site, with training and post-launch support.",
-        ".about-extra .highlight": "Your project deserves to stand out online!"
-      }
+        ".about-extra li:nth-child(1)":
+          "🔹 I listen to your ideas and define objectives with you.",
+        ".about-extra li:nth-child(2)":
+          "🔹 I propose visual & technical solutions tailored to your audience.",
+        ".about-extra li:nth-child(3)":
+          "🔹 I develop your site with visible progress and constant communication.",
+        ".about-extra li:nth-child(4)":
+          "🔹 I deliver a ready-to-use site, with training and post-launch support.",
+        ".about-extra .highlight": "Your project deserves to stand out online!",
+      },
     },
     "/servicios.html": {
       es: {
@@ -112,39 +146,49 @@ I create modern, attractive and effective websites for businesses, professionals
         "#servicios-intro p": `Desarrollo web a medida con diseño UI, animaciones personalizadas, formularios funcionales, SEO y más. Publicación en tu dominio o hosting gratuito.`,
         ".section-subtitle": "Servicios disponibles",
         ".servicio-card:nth-child(1) h3": "Landing pages profesionales",
-        ".servicio-card:nth-child(1) p": "Una sola página, moderna, responsive y clara. Ideal para promocionar productos, servicios o portafolios personales con identidad visual propia.",
+        ".servicio-card:nth-child(1) p":
+          "Una sola página, moderna, responsive y clara. Ideal para promocionar productos, servicios o portafolios personales con identidad visual propia.",
         ".servicio-card:nth-child(2) h3": "Sitios web multipágina",
-        ".servicio-card:nth-child(2) p": "Estructura completa con varias secciones. Perfecto para marcas, empresas o negocios que necesitan transmitir más información o trabajar el SEO.",
+        ".servicio-card:nth-child(2) p":
+          "Estructura completa con varias secciones. Perfecto para marcas, empresas o negocios que necesitan transmitir más información o trabajar el SEO.",
         ".servicio-card:nth-child(3) h3": "Formularios funcionales",
-        ".servicio-card:nth-child(3) p": "Formulario de contacto conectado a tu correo con EmailJS, validación en tiempo real y protección antispam. Listo para recibir mensajes desde el día uno.",
+        ".servicio-card:nth-child(3) p":
+          "Formulario de contacto conectado a tu correo con EmailJS, validación en tiempo real y protección antispam. Listo para recibir mensajes desde el día uno.",
         ".servicio-card:nth-child(4) h3": "Integraciones opcionales",
-        ".servicio-card:nth-child(4) p": "Agrega funcionalidades como botones animados, sliders, integración con redes sociales, APIs, Google Maps o efectos especiales según lo que necesites.",
-        ".nota-contacto": "¿Tienes un proyecto en mente? <strong>Solicita tu cotización personalizada</strong>. El precio final dependerá del tipo de sitio, funcionalidades y plazos.",
+        ".servicio-card:nth-child(4) p":
+          "Agrega funcionalidades como botones animados, sliders, integración con redes sociales, APIs, Google Maps o efectos especiales según lo que necesites.",
+        ".nota-contacto":
+          "¿Tienes un proyecto en mente? <strong>Solicita tu cotización personalizada</strong>. El precio final dependerá del tipo de sitio, funcionalidades y plazos.",
         ".servicios-cards .cta-btn": "Solicita tu cotización",
         ".highlight-section:nth-child(3) h2": "Próximamente",
         ".highlight-section:nth-child(3) p": `En el futuro podrás solicitar sitios desarrollados con React, blogs dinámicos, tiendas virtuales y más funcionalidades interactivas. Me mantengo en constante formación para ofrecerte soluciones modernas y escalables.`,
         ".cta-section h2": "¿Listo para crear tu web?",
-        ".cta-section .cta-btn": "Solicita tu cotización"
+        ".cta-section .cta-btn": "Solicita tu cotización",
       },
       en: {
         "#servicios-intro h2": "Your ideal website, hassle-free",
         "#servicios-intro p": `Custom web development with UI design, animations, functional forms, SEO, and more. Published to your domain or free hosting.`,
         ".section-subtitle": "Available services",
         ".servicio-card:nth-child(1) h3": "Professional landing pages",
-        ".servicio-card:nth-child(1) p": "A single-page site that’s modern, responsive and clear. Ideal for showcasing products, services or personal portfolios with strong visual identity.",
+        ".servicio-card:nth-child(1) p":
+          "A single-page site that’s modern, responsive and clear. Ideal for showcasing products, services or personal portfolios with strong visual identity.",
         ".servicio-card:nth-child(2) h3": "Multipage websites",
-        ".servicio-card:nth-child(2) p": "Full structured sites with several sections. Perfect for brands, companies or businesses that need to convey more information or work on SEO.",
+        ".servicio-card:nth-child(2) p":
+          "Full structured sites with several sections. Perfect for brands, companies or businesses that need to convey more information or work on SEO.",
         ".servicio-card:nth-child(3) h3": "Functional forms",
-        ".servicio-card:nth-child(3) p": "Contact forms connected to your email via EmailJS, real-time validation and anti-spam protection. Ready to receive messages from day one.",
+        ".servicio-card:nth-child(3) p":
+          "Contact forms connected to your email via EmailJS, real-time validation and anti-spam protection. Ready to receive messages from day one.",
         ".servicio-card:nth-child(4) h3": "Optional integrations",
-        ".servicio-card:nth-child(4) p": "Add features like animated buttons, sliders, social media integrations, APIs, Google Maps or special effects based on your needs.",
-        ".nota-contacto": "Got a project in mind? <strong>Request your custom quote</strong>. Final pricing depends on site type, features and timelines.",
+        ".servicio-card:nth-child(4) p":
+          "Add features like animated buttons, sliders, social media integrations, APIs, Google Maps or special effects based on your needs.",
+        ".nota-contacto":
+          "Got a project in mind? <strong>Request your custom quote</strong>. Final pricing depends on site type, features and timelines.",
         ".servicios-cards .cta-btn": "Request your quote",
         ".highlight-section:nth-child(3) h2": "Coming soon",
         ".highlight-section:nth-child(3) p": `Soon you’ll be able to request React-built sites, dynamic blogs, online stores and more interactive features. I stay in constant training to offer modern and scalable solutions.`,
         ".cta-section h2": "Ready to build your site?",
-        ".cta-section .cta-btn": "Request your quote"
-      }
+        ".cta-section .cta-btn": "Request your quote",
+      },
     },
     "/portafolio.html": {
       es: {
@@ -157,7 +201,7 @@ I create modern, attractive and effective websites for businesses, professionals
         ".portafolio-card:nth-child(2) p": `Web para empresas y profesionales formales. Diseño limpio, secciones claras y formulario de contacto.<br><span class="tech-used">HTML, CSS, JS</span>`,
         ".portafolio-card:nth-child(2) a": "Ver demo",
         ".cta-section h2": "¿Te gustaría ver tu web aquí?",
-        ".cta-section .cta-btn": "¡Hablemos de tu proyecto!"
+        ".cta-section .cta-btn": "¡Hablemos de tu proyecto!",
       },
       en: {
         ".highlight-section h2": "Portfolio",
@@ -169,13 +213,14 @@ I create modern, attractive and effective websites for businesses, professionals
         ".portafolio-card:nth-child(2) p": `Website for formal companies and professionals. Clean design, clear sections, and contact form.<br><span class="tech-used">HTML, CSS, JS</span>`,
         ".portafolio-card:nth-child(2) a": "See demo",
         ".cta-section h2": "Would you like to see your website here?",
-        ".cta-section .cta-btn": "Let's talk about your project!"
-      }
+        ".cta-section .cta-btn": "Let's talk about your project!",
+      },
     },
     "/contacto.html": {
       es: {
         ".highlight-section h2": "Contacto",
-        ".highlight-section p": "¿Listo para comenzar tu proyecto, tienes dudas o quieres cotizar? Completa el formulario o escríbeme directamente. ¡Te responderé lo antes posible!",
+        ".highlight-section p":
+          "¿Listo para comenzar tu proyecto, tienes dudas o quieres cotizar? Completa el formulario o escríbeme directamente. ¡Te responderé lo antes posible!",
         "#form-name": "Tu nombre",
         "#form-email": "Tu correo",
         "#form-message": "Cuéntame sobre tu idea o consulta",
@@ -184,23 +229,36 @@ I create modern, attractive and effective websites for businesses, professionals
         ".contacto-directo a[href^='mailto']": "Correo",
         ".contacto-directo a[href^='https://wa.me']": "WhatsApp",
         // Preguntas del FAQ dentro de cada <details>
-        ".qna-section details:nth-of-type(1) summary": "¿Qué necesito para encargar mi web?",
-        ".qna-section details:nth-of-type(2) summary": "¿Cuánto tarda el desarrollo?",
-        ".qna-section details:nth-of-type(3) summary": "¿Puedo administrar mi web después?",
-        ".qna-section details:nth-of-type(4) summary": "¿Incluye hosting y dominio?",
-        ".qna-section details:nth-of-type(5) summary": "¿Cómo es el proceso de pago?",
-        ".qna-section details:nth-of-type(6) summary": "¿Y si tengo dudas o problemas después de la entrega?",
+        ".qna-section details:nth-of-type(1) summary":
+          "¿Qué necesito para encargar mi web?",
+        ".qna-section details:nth-of-type(2) summary":
+          "¿Cuánto tarda el desarrollo?",
+        ".qna-section details:nth-of-type(3) summary":
+          "¿Puedo administrar mi web después?",
+        ".qna-section details:nth-of-type(4) summary":
+          "¿Incluye hosting y dominio?",
+        ".qna-section details:nth-of-type(5) summary":
+          "¿Cómo es el proceso de pago?",
+        ".qna-section details:nth-of-type(6) summary":
+          "¿Y si tengo dudas o problemas después de la entrega?",
         // Respuestas del FAQ
-        ".qna-section details:nth-of-type(1) div": "Solo necesitas tener clara tu idea, tus objetivos y el público al que quieres llegar. Si ya tienes textos, imágenes o logo, ¡mejor! Si no, te ayudo a definir lo necesario.",
-        ".qna-section details:nth-of-type(2) div": "Depende del tipo de sitio y la cantidad de páginas. Un proyecto básico puede estar listo en 1 a 2 semanas. Proyectos más grandes o personalizados pueden tomar de 3 a 5 semanas.",
-        ".qna-section details:nth-of-type(3) div": "Sí, ofrezco capacitación básica para que puedas actualizar textos e imágenes. Si prefieres que yo haga los cambios, también puedes contratar soporte mensual.",
-        ".qna-section details:nth-of-type(4) div": "Sí, puedo ayudarte a publicar tu web en un hosting gratuito o guiarte en la compra de un dominio propio para tu marca.",
-        ".qna-section details:nth-of-type(5) div": "Generalmente se acuerda un 50% al iniciar y el resto al entregar el proyecto. Para proyectos pequeños es posible pago único.",
-        ".qna-section details:nth-of-type(6) div": "Incluyo soporte post-entrega y puedes contactarme siempre que lo necesites. ¡Quiero que tu web funcione perfecto!"
+        ".qna-section details:nth-of-type(1) div":
+          "Solo necesitas tener clara tu idea, tus objetivos y el público al que quieres llegar. Si ya tienes textos, imágenes o logo, ¡mejor! Si no, te ayudo a definir lo necesario.",
+        ".qna-section details:nth-of-type(2) div":
+          "Depende del tipo de sitio y la cantidad de páginas. Un proyecto básico puede estar listo en 1 a 2 semanas. Proyectos más grandes o personalizados pueden tomar de 3 a 5 semanas.",
+        ".qna-section details:nth-of-type(3) div":
+          "Sí, ofrezco capacitación básica para que puedas actualizar textos e imágenes. Si prefieres que yo haga los cambios, también puedes contratar soporte mensual.",
+        ".qna-section details:nth-of-type(4) div":
+          "Sí, puedo ayudarte a publicar tu web en un hosting gratuito o guiarte en la compra de un dominio propio para tu marca.",
+        ".qna-section details:nth-of-type(5) div":
+          "Generalmente se acuerda un 50% al iniciar y el resto al entregar el proyecto. Para proyectos pequeños es posible pago único.",
+        ".qna-section details:nth-of-type(6) div":
+          "Incluyo soporte post-entrega y puedes contactarme siempre que lo necesites. ¡Quiero que tu web funcione perfecto!",
       },
       en: {
         ".highlight-section h2": "Contact",
-        ".highlight-section p": "Ready to start your project, have questions, or want a quote? Fill out the form or message me directly. I’ll reply as soon as possible!",
+        ".highlight-section p":
+          "Ready to start your project, have questions, or want a quote? Fill out the form or message me directly. I’ll reply as soon as possible!",
         "#form-name": "Your name",
         "#form-email": "Your email",
         "#form-message": "Tell me about your idea or question",
@@ -209,21 +267,33 @@ I create modern, attractive and effective websites for businesses, professionals
         ".contacto-directo a[href^='mailto']": "Email",
         ".contacto-directo a[href^='https://wa.me']": "WhatsApp",
         // FAQ questions
-        ".qna-section details:nth-of-type(1) summary": "What do I need to order my website?",
-        ".qna-section details:nth-of-type(2) summary": "How long does development take?",
-        ".qna-section details:nth-of-type(3) summary": "Can I manage my site afterward?",
-        ".qna-section details:nth-of-type(4) summary": "Does it include hosting and a domain?",
-        ".qna-section details:nth-of-type(5) summary": "What is the payment process?",
-        ".qna-section details:nth-of-type(6) summary": "What if I have questions or problems after delivery?",
+        ".qna-section details:nth-of-type(1) summary":
+          "What do I need to order my website?",
+        ".qna-section details:nth-of-type(2) summary":
+          "How long does development take?",
+        ".qna-section details:nth-of-type(3) summary":
+          "Can I manage my site afterward?",
+        ".qna-section details:nth-of-type(4) summary":
+          "Does it include hosting and a domain?",
+        ".qna-section details:nth-of-type(5) summary":
+          "What is the payment process?",
+        ".qna-section details:nth-of-type(6) summary":
+          "What if I have questions or problems after delivery?",
         // FAQ answers
-        ".qna-section details:nth-of-type(1) div": "You only need a clear idea, objectives, and audience. If you have texts, images, or a logo, great! If not, I help define what's needed.",
-        ".qna-section details:nth-of-type(2) div": "It depends on site type and number of pages. A basic project can be ready in 1-2 weeks. Larger or custom projects may take 3-5 weeks.",
-        ".qna-section details:nth-of-type(3) div": "Yes, I offer basic training so you can update texts and images. If you prefer me to handle changes, you can also hire monthly support.",
-        ".qna-section details:nth-of-type(4) div": "Yes, I can help publish your site on free hosting or guide you in purchasing your own domain.",
-        ".qna-section details:nth-of-type(5) div": "Typically, 50% is paid at start and the rest upon delivery. For small projects, a single payment might suffice.",
-        ".qna-section details:nth-of-type(6) div": "I include post-delivery support and you can contact me anytime you need. I want your site to work perfectly!"
-      }
-    }
+        ".qna-section details:nth-of-type(1) div":
+          "You only need a clear idea, objectives, and audience. If you have texts, images, or a logo, great! If not, I help define what's needed.",
+        ".qna-section details:nth-of-type(2) div":
+          "It depends on site type and number of pages. A basic project can be ready in 1-2 weeks. Larger or custom projects may take 3-5 weeks.",
+        ".qna-section details:nth-of-type(3) div":
+          "Yes, I offer basic training so you can update texts and images. If you prefer me to handle changes, you can also hire monthly support.",
+        ".qna-section details:nth-of-type(4) div":
+          "Yes, I can help publish your site on free hosting or guide you in purchasing your own domain.",
+        ".qna-section details:nth-of-type(5) div":
+          "Typically, 50% is paid at start and the rest upon delivery. For small projects, a single payment might suffice.",
+        ".qna-section details:nth-of-type(6) div":
+          "I include post-delivery support and you can contact me anytime you need. I want your site to work perfectly!",
+      },
+    },
   };
 
   function setLanguage(lang) {
@@ -234,7 +304,14 @@ I create modern, attractive and effective websites for businesses, professionals
       if (el) el.innerHTML = val;
     });
     // sección multipágina
-    const route = location.pathname.endsWith("/") ? "/index.html" : location.pathname;
+    let route = location.pathname;
+    if (route.endsWith("/")) {
+      route += "index.html";
+    }
+    // si no termina en .html, lo añadimos
+    if (!route.endsWith(".html")) {
+      route += ".html";
+    }
     const page = pages[route]?.[lang];
     if (page) {
       Object.entries(page).forEach(([sel, val]) => {
@@ -256,7 +333,6 @@ I create modern, attractive and effective websites for businesses, professionals
     setLanguage(lang);
   });
 });
-
 
 // ========== SISTEMA DE IDIOMA GLOBAL ==========
 
@@ -497,4 +573,3 @@ I create modern, attractive and effective websites for businesses, professionals
 //     setLanguage(lang);
 //   });
 // });
-
